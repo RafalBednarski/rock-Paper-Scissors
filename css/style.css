@@ -1,0 +1,88 @@
+body {
+    background: #C0CCE2 url("../image/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.container h3 {
+	font-family: 'Gloria Hallelujah', cursive
+	font-size: 60px;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+.container img {
+	height: 100px;
+	width: 100px;
+	border-radius: 45px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    transition: 0.15s;
+    font-size: 28px;
+    box-shadow: 1px 2px 2px #b6b6b6;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.btn:hover {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.btn:active {
+    transform: scale(0.80);
+    -webkit-transform: scale(0.80);
+    -ms-transform: scale(0.80);  
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+}
+
+button .badge {
+    background: #F1F6FF;
+    color: black;
+}
+
+button i.fa {
+    font-size: 30px;
+}
+
+#label-rock {
+    background-color: #968661;
+}
+
+#label-paper {
+    background-color: #E3D8C0;
+}
+
+#label-scissors {
+    background-color: #707D96;
+}
+
+#js-playerName, #js-computerName {
+    font-weight: bold;
+}
+
+#js-playerPoints, #js-computerPoints {
+    font-size: 30px;
+    background: #F1F6FF;
+    color: black;
+}
+
+#js-resultsTableElement {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#js-generalResult {
+    font-weight: bold;
+}
+#js-playerPick, #js-computerPick, #js-playerResult, #js-computerResult {
+    transition: .8s;
+}
